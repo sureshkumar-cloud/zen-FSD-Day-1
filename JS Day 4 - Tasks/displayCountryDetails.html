@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let xhr = new XMLHttpRequest();
+        xhr.open('GET', 'https://restcountries.com/v3.1/all', true);
+        xhr.onload = function(){
+            let responseObject = JSON.parse(this.responseText);
+            // let object = responseObject[0];
+            for(const object of responseObject) {
+                console.log(`Name: ${object.name.official}, Region: ${object.region}, Sub-Region: ${object.subregion}, Population: ${object.population}`);
+            }
+        }
+
+        xhr.send();
+    </script>
+</body>
+</html>
