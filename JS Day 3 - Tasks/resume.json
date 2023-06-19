@@ -1,0 +1,62 @@
+{
+    "basics": {
+      "name": "Suresh Kumar Vairamuthu",
+      "email": "sureshkumarvairamuthu@gmail.com",
+      "phone": "+910000000000",
+      "degree": "B.E. CSE.",
+      "website": "https://sureshkumarofficial.github.io/",
+      "summary": "In my current role, I handle development, and deployment in both Backend and Frontend. I have also trained and mentored new freshers on skillset improvement, client relationship management, and advanced product knowledge.",
+      "location": {
+        "city": "Chennai",
+        "state": "TN"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "url": "https://www.linkedin.com/in/suresh-kumar-vairamuthu-57b107139/"
+        }
+      ]
+    },
+    "work": [
+      {
+        "company": "Ionixx Technologies",
+        "position": "Programmer",
+        "startDate": "2020-07-01",
+        "endDate": ""
+      }
+    ],
+    "education": [
+      {
+        "institution": "K.S.R. College of Engineering",
+        "area": "B.E. Computer Science and Engineering",
+        "studyType": "Full Time",
+        "startYear": "2016",
+        "endYear": "2020",
+        "gpa": "7.9"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Programming Languages",
+        "level": "Intermedite",
+        "keywords": [
+          "Java",
+          "Node JS",
+          "Spring",
+          "Spring Boot",
+          "Hibernate",
+          "MySQL"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Tamil",
+        "fluency": "Native Speaker"
+      },
+      {
+        "language": "English",
+        "fluency": "Professional Proficiency"
+      }
+    ]
+  }
